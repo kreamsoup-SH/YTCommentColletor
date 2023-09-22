@@ -1,0 +1,17 @@
+{
+    "PATTERN_DICT" :{
+        "youtube" : "(https?://)?(www.)?(youtube|youtu|youtube-nocookie).(com|be)/((watch?v=|embed/|v/|.+?v=)?(?P<id>[A-Za-z0-9-=_]{11})|@[A-Za-z0-9-=_]*)"
+    },
+    "URL" : [
+        "https://www.youtube.com/@cowt4253",
+        "https://www.youtube.com/@datenshi3896"
+    ],
+    "API_CONFIGS" : {
+        "api_version" : "v3",
+        "api_service_name" : "youtube",
+        "DEVELOPER_KEY" : "{유튜브 데이터 api 넣는곳}"
+    },
+    "export":{
+        "header": ["authorDisplayName", "textDisplay", "textOriginal", "likeCount"]
+    }
+}
