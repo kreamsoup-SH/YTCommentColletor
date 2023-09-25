@@ -1,4 +1,4 @@
-# YTCommentIsMine   
+# YTCommentIsOurs   
 crawling youtube comments. by Python   
    
 - 실행방법   
